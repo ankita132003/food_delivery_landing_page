@@ -475,10 +475,11 @@ body.dark-theme {
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   .svg__img {
     width: 100%;
   }
+  
   .section {
     padding: 3.5rem 0 1rem;
   }
@@ -621,6 +622,11 @@ body.dark-theme {
     flex-basis: 40%;
     
   }
+ 
+  svg image{
+    width: 100vb;
+    height: 350px;
+  }
 
 }
 
@@ -631,4 +637,9 @@ body.dark-theme {
   }
 
   
+}
+
+svg image{
+  width: 100vb;
+  height: 350px;
 }
